@@ -13,81 +13,78 @@
 <body>
 
 
-    <div>
-        <img class="Logo" src="https://wallpapers.com/images/featured/skyrim-logo-png-xa101sn0p941hozw.jpg">
+    <div class="container-body">
+
+        <div class="empresa-container">
+
+            <img class="empresa"
+                src="https://res.cloudinary.com/dewzjk72j/image/authenticated/s--66hemCsA--/c_lfill,w_744/f_auto:image,q_auto/v1/cms/bethesda_gs-white_cw8fvh_bovmzy"
+                alt="Empresa">
+
+        </div>
+
+        <div class="container-logo">
+            <img class="logo" src="https://wallpapers.com/images/featured/skyrim-logo-png-xa101sn0p941hozw.jpg">
+
+            <h1>
+                The Elder Scrolls V: Skyrim
+            </h1>
+        </div>
+
+        <div class="container-botoes">
+
+            <button id="New"> New Game </button>
+            <button id="Load"> Loading </button>
+            <button id="Mod"> Mods </button>
+            <button id="Credit"> Credits </button>
+            <button id="Sair"> Quit </button>
+
+
+            <script>
+                const New = document.getElementById("New");
+
+                New.addEventListener("click", function () {
+                    alert("Começou!");
+                });
+            </script>
+
+            <script>
+                const Load = document.getElementById("Load");
+
+                Load.addEventListener("click", function () {
+                    alert("Carregou!");
+                });
+            </script>
+
+            <script>
+                const Mod = document.getElementById("Mod");
+
+                Mod.addEventListener("click", function () {
+                    alert("Sem mod encontrado!");
+                });
+            </script>
+
+            <script>
+                const Credit = document.getElementById("Credit");
+
+                Credit.addEventListener("click", function () {
+                    alert("Totalmente meu disse o chat GPT !");
+                });
+            </script>
+
+            <script>
+                const Sair = document.getElementById("Sair");
+
+                Sair.addEventListener("click", function () {
+                    alert("Vazei!");
+                });
+            </script>
+
+
+        </div>
+
+
     </div>
-
-    <div>
-
-        <img class="Empresa"
-            src="https://res.cloudinary.com/dewzjk72j/image/authenticated/s--66hemCsA--/c_lfill,w_744/f_auto:image,q_auto/v1/cms/bethesda_gs-white_cw8fvh_bovmzy">
-
-    </div>
-
-    <div>
-
-        <h1 class="intro">
-
-            The Elder Scrolls V: Skyrim
-
-        </h1>
-
-    </div>
-
-    <div class="botoes">
-
-        <button id="New"> New Game </button>
-        <button id="Load"> Loading </button>
-        <button id="Mod"> Mods </button>
-        <button id="Credit"> Credits </button>
-        <button id="Sair"> Quit </button>
-
-
-        <script>
-            const New = document.getElementById("New");
-
-            New.addEventListener("click", function () {
-                alert("Começou!");
-            });
-        </script>
-
-        <script>
-            const Load = document.getElementById("Load");
-
-            Load.addEventListener("click", function () {
-                alert("Carregou!");
-            });
-        </script>
-
-        <script>
-            const Mod = document.getElementById("Mod");
-
-            Mod.addEventListener("click", function () {
-                alert("Sem mod encontrado!");
-            });
-        </script>
-
-        <script>
-            const Credit = document.getElementById("Credit");
-
-            Credit.addEventListener("click", function () {
-                alert("Totalmente meu disse o chat GPT !");
-            });
-        </script>
-
-        <script>
-            const Sair = document.getElementById("Sair");
-
-            Sair.addEventListener("click", function () {
-                alert("Vazei!");
-            });
-        </script>
-
-
-    </div>
-
-
-
 
 </body>
 
