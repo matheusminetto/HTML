@@ -1,0 +1,64 @@
+body{ 
+    display: flex;
+    background: black;
+    margin: 100px;
+    padding: auto;
+}
+
+
+img{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+   
+}
+
+.intro{
+    
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.botoes{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 90%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.botoes button{
+
+     width: 200px;
+    padding: 5px;
+    font-size: 25px;
+
+    background: black;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Empresa{
+
+    
+    position: absolute;
+    top: 90%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: auto;
+
+}
